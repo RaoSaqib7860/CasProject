@@ -11,17 +11,73 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>get_smart_ride_cas</string>
+	<string>Get Smart Ride</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>$(FLUTTER_BUILD_NAME)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.1038603582539-g6n6jihvhuu9iu2m9jaj5c2evkhlsjvg</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb1096398710853835</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>FacebookAppID</key>
+	<string>1096398710853835</string>
+	<key>FacebookCodelessDebugLogEnabled</key>
+	<true/>
+	<key>FacebookDisplayName</key>
+	<string>Modoose</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>tel</string>
+		<string>https</string>
+		<string>http</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>SharingOut would like to access your Music</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Modoose would like to access your calender.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Your Camera is used to update your profile and add food images.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>YOur Contact is used to update your profile with contact information.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Your Location is used to show you nearby foods.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Your Location is used to provide directions to destination.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Modoose need to access your device microphone.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Modoose would like to access your motion.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Your photo library is used to update food image and profile picture.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>The app uses speech recognition for dictating notes.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -41,5 +97,7 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>io.flutter.embedded_views_preview</key>
+	<true/>
 </dict>
 </plist>
